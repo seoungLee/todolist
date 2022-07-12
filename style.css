@@ -1,0 +1,141 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.left-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 500px;
+  height: 700px;
+  margin: auto 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px;
+}
+
+.name {
+  text-align: center;
+  border: 2px solid black;
+  height: 70px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px;
+  margin: 25px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* .name input{
+    text-align: center;
+    font-weight: bolder;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    border-bottom: #1b0000;
+    outline: none;
+} */
+
+.todo {
+  /* border: 2px solid black ; */
+  text-align: center;
+  border-radius: 10px;
+  /* box-shadow: 2px 2px; */
+  background-color: white;
+  margin: 10px;
+}
+
+.todo input {
+  text-align: center;
+  border: none;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  border-bottom: 2px solid gray;
+}
+
+.right-form {
+  border: 2px solid black;
+  width: 500px;
+  height: 700px;
+  margin: auto 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px;
+  overflow: hidden;
+}
+
+.right-form .date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  border-bottom: 2px solid #1b0000;
+}
+
+.date-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-right: 2px solid #1b0000;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.weather {
+  height: 100px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-bottom: 2px solid #1b0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.randomImg {
+  background-size: cover;
+  width: 500px;
+  height: 526px;
+}
+
+.btn {
+  margin-left: 50px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  border: none;
+  background-color: bisque;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
